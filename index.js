@@ -32,7 +32,7 @@ function operation() {
       } else if (action === "Sacar") {
         withdraw();
       } else if (action === "Sair") {
-        console.log(chalk.bgBlue.black("Obrigado por usar o nosso banco"));
+        console.log(chalk.bgBlue.black("Obrigado por usar o nosso banco!git "));
         process.exit();
       }
     })
